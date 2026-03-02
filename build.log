@@ -1,0 +1,28 @@
+
+> ai-resume-matcher@0.1.0 build /home/ankit.gupta/Downloads/ai-resume-matcher
+> next build
+
+info  - Loaded env from /home/ankit.gupta/Downloads/ai-resume-matcher/.env.local
+info  - Linting and checking validity of types...
+info  - Creating an optimized production build...
+info  - Compiled successfully
+info  - Collecting page data...
+SyntaxError: Unexpected token '.'
+    at Loader.moduleStrategy (internal/modules/esm/translators.js:140:18)
+    at async link (internal/modules/esm/module_job.js:42:21)
+
+> Build error occurred
+Error: Failed to collect page data for /
+    at /home/ankit.gupta/Downloads/ai-resume-matcher/node_modules/next/dist/build/utils.js:916:15 {
+  type: 'Error'
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ai-resume-matcher@0.1.0 build: `next build`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the ai-resume-matcher@0.1.0 build script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ankit.gupta/.npm/_logs/2026-03-02T05_22_31_657Z-debug.log
